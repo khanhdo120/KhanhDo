@@ -1,0 +1,535 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@600&display=swap');
+p{
+	font-family: 'Montserrat', sans-serif;
+	}
+*{
+	margin: 0px;
+	padding: 0px;
+	}
+#wrapper{
+	margin: 0px auto;
+	width: 1300px;
+	height: 2500px;
+/*	background: #FF7C7E;*/
+	}
+.header{
+/*	background: #C15254;*/
+	width: 1300px;
+	height: 160px;
+	margin-bottom: 40px;
+	}
+.header-main{
+/*	background: #E1E1E1;*/
+	width: 1300px;
+	height: 120px;
+	}
+.logo{
+/*	background:#FF0004;*/
+	width: 1300px;
+	height: 100%;
+	overflow: hidden;
+	}
+.hinh-logo{
+	height: 20%;
+	margin-left: 45px;
+	margin-top: 25px;
+	float: left;
+/*	background:  #BFC4FF;*/
+	}
+.logo img{
+	width: 70px;
+	}
+.school-name{
+	text-align: center;
+	float: left;
+	margin-top: 25px;
+	margin-left: 15px;
+	margin-right: 49.5px;
+	}
+.school-name a{
+	text-decoration: none;
+	color: black;
+	}
+.logo h2{
+	font-size: 12px;
+	}
+.logo h1{
+	font-size: 30px;
+	}
+.banner{
+	width: 70%;
+	height: 100%;
+	overflow: hidden;
+	}
+.banner img{
+	margin-top: -250px;
+	width: 910px;
+	float: left;
+	}
+.header-bottom{
+/*	background: #E1E1E1;*/
+	width: 1300px;
+	height: 40px;
+	line-height: 30px;
+	}
+.menu ul{
+	list-style: none;
+	text-align: left;
+	}
+.menu ul li{
+	display: inline-block;
+	margin: 5px -2.5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600px;
+	}
+.menu ul li a{
+	text-decoration: none;
+	color:#001370;
+	padding: 10px 49px;
+	box-sizing: border-box;
+	background: white;
+	}
+.menu ul li a:hover{
+	color: white;
+	Background: #001370;
+	}
+.header hr{
+	border: 0.5px solid #001370;
+	}
+.jumbotron{
+	height: 650px;
+	width: 100%;
+	background-image: url("../img/thi-sinh-7415-1597224953.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center -50px;
+	margin-bottom: 70px;
+	}
+.banner-left{
+	background: rgba(255, 255, 255, 0.6);
+	position: relative;
+	height: 310px;
+	width: 40%;
+	float: left;
+	padding: 50px;
+	box-sizing: border-box;
+	margin: 280px 0px 0px 60px;
+	}
+
+.banner-left h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	margin-bottom: 20px;
+	}
+.banner-left p{
+	font-size: 17px;
+	margin-bottom: 25px;
+	}
+.banner-left a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	background:#FF0041;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 10px;
+	}
+.banner-left a:hover{
+	background: white;
+	color: #FF0041;
+	}
+.news{
+	margin-bottom: 70px;
+	float:left;
+	width:100%;
+	height:480px;
+/*	background:#FFB3B4;*/
+	}
+.news h1{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	}
+.news hr{
+	border: 0.25px solid #001370;
+	width: 50%;
+	margin: 0px auto;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	}
+.news-1{
+	float:left;
+	height: 400px;
+	width: 24%;
+	background-image: url("../img/nhan-dinh-de-9843-1588849766.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 20px;
+	position: relative;
+	margin-right: 1.33%;
+	}
+.news-2{
+	float:left;
+	height: 400px;
+	width: 24%;
+	position: relative;
+	margin-right: 1.33%;
+	background-image: url("../img/letotnghiep.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 20px;
+	}
+.news-3{
+	float:left;
+	height: 400px;
+	width: 24%;
+	background: #386A9E; 
+	position: relative;
+	margin-right: 1.33%;
+	background-image: url("../img/ruatay.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 20px;
+	}
+.news-4{
+	float:left;
+	height: 400px;
+	width: 24%;
+	background: #2D8CFF; 
+	position: relative;
+	background-image: url("../img/Zoom.logo_.jpg");
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: center -10px;
+	border-radius: 20px;
+	}
+.text-1{
+	margin-top: 304px;
+	text-align: left;
+	position: absolute;
+	font-size: 17px;
+	height: 24%;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.6);
+	}
+.text-1 a{
+	text-decoration: none;
+	color: black;
+	}
+.text-1 a:hover{
+	text-decoration: none;
+	color: white;
+	}
+.activities h1{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	}
+.activities hr{
+	border: 0.25px solid #001370;
+	width: 50%;
+	margin: 0px auto;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	}
+.activities{
+	width: 1300px;
+	height: 595px;
+/*	background: #FF8F91;*/
+	float: left;
+	margin-bottom: 70px;
+	}
+.upperright p{
+	background: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	border-radius: 10px;
+	}
+.lowerright p{
+	background: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+	border-radius: 10px;
+	
+	}
+.left{
+	float: left;
+	width: 513.5px;
+	height: 513.5px;
+	background: #C16B6C;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 30px;
+	box-sizing: border-box;
+	font-weight:bold;
+	background-image: url("../img/ĐGNL.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	}
+.left p{
+	margin-top: 390px;
+	background: rgba(255, 255, 255, 0.4);
+	padding: 10px;
+	border-radius: 10px;
+	
+	}
+.upperright{
+	float: right;
+	width: 773.5px;
+	height: 250.25px;
+/*	background: #C16B6C;*/
+	
+	}
+.upperright-1{
+	float: left;
+	width: 249.1px;
+	height: 250.25px;
+	background: #8AA9FF;
+	margin-right: 13px;
+	border-radius: 10px;
+	padding: 12px;
+	box-sizing: border-box;
+	font-weight:bold;
+	background-image: url("../img/bailuan.jpeg");
+	background-repeat: no-repeat;
+	background-position: px 10px;
+	background-size: 400px;
+	}
+.upperright-1 p{
+	margin-top: 180px;
+	}
+.upperright-2{
+	float: left;
+	width: 249.1px;
+	height: 250.25px;
+	background: #8AA9FF;
+	margin-right: 13px;
+	border-radius: 10px;
+	padding: 12px;
+	box-sizing: border-box;
+	font-weight:bold;
+	background-image: url("../img/Ngành Y.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	}
+.upperright-2 p{
+	margin-top: 160px;
+	}
+.upperright-3{
+	float: left;
+	width: 249.1px;
+	height: 250.25px;
+	background: #CBECFF;
+	border-radius: 10px;
+	padding: 12px;
+	box-sizing: border-box;
+	font-weight:bold;
+	background-image: url("../img/ĐHQG.png");
+	background-repeat: no-repeat;
+	background-position: center 30px;
+	background-size: 250px;
+	}
+.upperright-3 p{
+	margin-top: 160px;
+	}
+.lowerright{
+	float: right;
+	width: 773.5px;
+	height: 250.25px;
+/*	background: #C16B6C;*/
+	margin-top: 13px;
+	}
+.lowerright-1{
+	float: left;
+	width: 249.1px;
+	height: 250.25px;
+	background: #8AA9FF;
+	margin-right: 13px;
+	border-radius: 10px;
+	padding: 12px;
+	box-sizing: border-box;
+	font-weight:bold;
+	background-image: url("../img/language.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 650px;
+	}
+.lowerright-1 p{
+	margin-top: 160px;
+	}
+.lowerright-2{
+	float: left;
+	width: 249.1px;
+	height: 250.25px;
+	background: #8AA9FF;
+	margin-right: 13px;
+	border-radius: 10px;
+	padding: 12px;
+	box-sizing: border-box;
+	font-weight:bold;
+	background-image: url("../img/STEM.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	}
+.lowerright-2 p{
+	margin-top: 180px;
+	}
+.lowerright-3{
+	float: left;
+	width: 249.1px;
+	height: 250.25px;
+	background: #8AA9FF;
+	border-radius: 10px;
+	padding: 12px;
+	box-sizing: border-box;
+	font-weight:bold;
+	background-image: url("../img/hsg tp.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	}
+.lowerright-3 p{
+	margin-top: 140px;
+	}
+.activities a{
+	text-decoration: none;
+	color: black;
+	}
+.activities a:hover{
+	text-decoration: none;
+	color:#001370 ;
+	}
+.footer{
+	width: 1300px;
+	height: 370px;
+	background-image:url("../img/clean_textile_dark.jpeg");
+	float: left;
+	font-size: 14px;
+	}
+.logo-1{
+	width: 480px;
+	width: 390px;
+	}
+.logo-1 hinh-logo{
+	height: 20%;
+	margin-left: 45px;
+	margin-top: 25px;
+	float: left;
+/*	background:  #BFC4FF;*/
+	}
+.logo-1 img{
+	width: 70px;
+	}
+.logo-1 school-name{
+	text-align: center;
+	float: left;
+	margin-top: 25px;
+	margin-left: 15px;
+	margin-right: 49.5px;
+	}
+.logo-1 school-name a{
+	text-decoration: none;
+	color: black;
+	}
+.logo-1 h2{
+	font-size: 12px;
+	}
+.logo-1 h1{
+	font-size: 30px;
+	}
+.footer ul li{
+	font-weight: 600px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px 0px;
+	}
+.footer ul{
+	list-style: none;
+	text-align: left;
+	}
+.block-1{
+	height: 100px;
+	width: 500px;
+	position: relative;
+	float: left;
+	}
+.contact{
+	height: 105px;
+	width: 310px;
+/*	background: #6165FF;*/
+	float: left;
+	position:absolute;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 50px;
+	margin-top: 130px;
+	}
+.col-1{
+	height: 130px;
+	width: 180px;
+/*	background: #BD5456;*/
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 130px;
+	color: white;
+	margin-right: 100px;
+	}
+.col-2{
+	height: 130px;
+	width: 150px;
+/*	background:#FF7F06;*/
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 130px;
+	color: white;
+	}
+.footer a{
+	text-decoration: none;
+	color: white;
+	}
+.col-1 a:hover{
+	text-decoration: none;
+	color: yellow;
+	}
+.col-2 a:hover{
+	text-decoration: none;
+	color: yellow;
+	}
+.facebook img{
+	height: 30px;
+	}
+.container{
+	float: left;
+	color: white;
+/*	background:#FFD5B5;*/
+	width: 1300px;
+	height: 40px;
+	margin-top: 60px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-top: 0.5px dotted white;
+	}
+.copyright{
+	width: 410px;
+/*	background:#6DA6EC;*/
+	float: left;
+	margin-left: 40px;
+	margin-top: 8px;
+	color: white;
+	}
+.copyright a{
+	font-weight: bold;
+	}
+.facebook-icon{
+	float: right;
+	width:30px;
+	height: 30px;
+	margin-right: 15px;
+	}
+
